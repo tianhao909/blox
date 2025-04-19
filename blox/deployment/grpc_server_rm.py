@@ -12,8 +12,12 @@ from concurrent import futures
 from typing import Tuple, List
 
 # sys.path.append(os.path.join(os.path.dirname(__file__), "grpc_stubs"))
-sys.path.append(os.path.join(os.path.dirname(__file__), "grpc_stubs"))
+
+sys.path.append(os.path.join(os.path.dirname(__file__), "grpc_stubs")) # origin
+# sys.path.append('/home/work/fth/software1/blox/blox/deployment/grpc_stubs') # fth 改
+
 # sys.path.append(os.path.join(os.path.dirname(__file__))
+print(">>FTH")
 print(sys.path)
 import rm_pb2 as rm_pb2
 import rm_pb2_grpc as rm_pb2_grpc
